@@ -11,3 +11,7 @@ def fib(n,dp):
 n = int(input("Enter the nth value: "))       
 dp = [-1 for _ in range(n+1)]        
 print(fib(n,dp))
+
+# Top Down approach with DP.
+# Memorization
+# recursion
